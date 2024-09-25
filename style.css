@@ -1,0 +1,40 @@
+* {
+ min-width: 0;
+ font: inherit;
+}
+
+body  {
+    margin: 0;
+    min-height: 100dvh;
+}
+
+p {
+    text-wrap: pretty;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    text-wrap: balance;
+}
+
+.container {
+    text-align: center;
+}
+
+footer{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.container img{
+
+    margin-top: 30px;    
+}
+
+p {
+    font-weight: bold;
+}
+
+.container h1,h2 {
+    font-size: 2em;
+    font-weight: bold;
+}
