@@ -224,3 +224,51 @@ h2.bigtitle {
     margin-top: 20px;
 
 }
+
+ /* Estilos responsivos */
+ @media (max-width: 768px) {
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    .custom-controls {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content {
+        padding: 15px;
+    }
+
+    h2.bigtitle {
+        font-weight: 600;
+        position: relative;
+        text-align: center;
+        font-size: 2.286rem;
+        text-transform: uppercase;
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    .custom-controls button {
+        margin: 5px 0;
+    }
+
+    .content {
+        padding: 10px;
+    }
+
+    h2.bigtitle {
+        font-weight: 600;
+        position: relative;
+        text-align: center;
+        font-size: 2.286rem;
+        text-transform: uppercase;
+        margin-bottom: 40px;
+    }
+}
