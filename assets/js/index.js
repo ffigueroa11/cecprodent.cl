@@ -52,7 +52,7 @@
             // Mostrar con efecto de fade-in
             captionElements[currentIndex].style.opacity = 1;
             buttonElements[currentIndex].style.opacity = 1;
-        }, 200);  // Ajustar el tiempo según la necesidad del efecto
+        }, 300);  // Ajustar el tiempo según la necesidad del efecto
     });
 
     const video = document.getElementById('miVideo');
