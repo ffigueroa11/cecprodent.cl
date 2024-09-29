@@ -324,3 +324,11 @@ h2.bigtitle {
         font-size: 1.5rem;  /* Reducir el tamaño de la fuente */
     }
 }
+
+@media (min-width: 1200px) {
+    #slider {
+        width: 100%;
+        max-height: 90vh; /* Limita la altura del slider */
+        overflow: hidden;
+    }
+}
