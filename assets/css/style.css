@@ -123,12 +123,13 @@ h2.bigtitle {
 /* styles.css */
 #slider {
     width: 100%;
-    max-height: 60vh; /* Limita la altura del slider */
+    max-height: 70vh; /* Limita la altura del slider */
     overflow: hidden;
 }
 
 #slider img {
     object-fit: cover; /* Mantiene la proporción de las imágenes y las ajusta al contenedor */
+    height: 100%;
 }
 
 /* .carousel-caption {
@@ -314,5 +315,12 @@ h2.bigtitle {
 
     .navbar-toggler {
         margin-right: 20px; /* Espacio para el botón de colapso */
+    }
+
+}
+
+@media (max-width: 360px) {
+    .carousel-caption h5 {
+        font-size: 1.5rem;  /* Reducir el tamaño de la fuente */
     }
 }

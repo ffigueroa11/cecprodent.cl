@@ -48,7 +48,11 @@
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-caption="Bienvenidos a CECPRODENT SpA" data-button="Agenda una cita">
-                        <img src="./assets/img/slide-1.webp" class="d-block w-100" alt="Imagen 1">
+                        <img src="./assets/img/slide-1.webp"
+                        srcset="./assets/img/slide-1.1.webp 600w,
+                                ./assets/img/slide-1.2.webp 1200w"
+                        sizes="(max-width: 768px) 600px, 100vw"
+                        class="d-block w-100" alt="Imagen 1">
                         <div class="carousel-caption d-none d-md-block" id="carousel-caption1">
                             <h5 class="dynamic-caption">Bienvenidos a CECPRODENT SpA</h5>
                             <a href="#" class="btn btn-primary dynamic-button">Agenda una cita</a>
